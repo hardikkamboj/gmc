@@ -23,10 +23,9 @@ k = 0
 while k!=27 :
   
   cv2.imshow("Window", source)
-  cv2.putText(source,'''Click on the image to 
-                        get the coordinates, press ESC to exit''' ,
-              (10,30), cv2.FONT_HERSHEY_SIMPLEX, 
-              0.7,(255,255,255), 2 );
+#   cv2.putText(source,'''Click on the image to get the coordinates, press ESC to exit''' ,
+#               (10,30), cv2.FONT_HERSHEY_SIMPLEX, 
+#               0.7,(255,255,255), 2 );
   k = cv2.waitKey(20) & 0xFF
   
   # Another way of cloning
